@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "MCP Playground" },
+      { name: "description", content: "MCP Explorer is a responsive web app for learning and experimenting with the Model Context Protocol (MCP)." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "MCP Playground" },
+      { property: "og:description", content: "MCP Explorer is a responsive web app for learning and experimenting with the Model Context Protocol (MCP)." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "MCP Playground" },
+      { name: "twitter:description", content: "MCP Explorer is a responsive web app for learning and experimenting with the Model Context Protocol (MCP)." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5f400e8f-ac6f-408c-8040-f5724e6952ba/id-preview-5080b774--93cd54e5-b1cd-4645-b7f4-c4c6200e0820.lovable.app-1776836160123.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5f400e8f-ac6f-408c-8040-f5724e6952ba/id-preview-5080b774--93cd54e5-b1cd-4645-b7f4-c4c6200e0820.lovable.app-1776836160123.png" },
     ],
     links: [
       {
