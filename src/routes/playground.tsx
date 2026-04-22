@@ -457,7 +457,7 @@ function Step({ index, kind, name, durationMs, input, output, explanation, statu
         <span className="truncate font-mono text-xs font-medium">{name}</span>
         <span className="ml-auto flex items-center gap-1.5 text-[11px] text-muted-foreground">
           {status === "ok"
-            ? <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+            ? <CheckCircle2 className="h-3.5 w-3.5 text-primary" />
             : <AlertTriangle className="h-3.5 w-3.5 text-destructive" />}
           {durationMs}ms
           {open ? <ChevronDown className="h-3.5 w-3.5" /> : <ChevronRight className="h-3.5 w-3.5" />}
